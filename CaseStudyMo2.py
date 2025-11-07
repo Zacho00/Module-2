@@ -1,6 +1,7 @@
 #Zach Thomas
 #CaseStudyMo2.py
 #This program  will accept student names and GPAs to test what honors they qualify for
+#https://github.com/Zacho00/Module-2
 
 #variables
 firstName = ''
@@ -25,4 +26,5 @@ while lastName != terminate:
     elif GPA > 3.25 and GPA < 3.5:
         print(firstName, lastName, "qualifies for Honor Roll.")
     else:
+
         print(firstName, lastName, "does not qualify for extra honors.")
